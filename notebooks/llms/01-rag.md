@@ -13,6 +13,10 @@ Choose any `.ipynb` file and open it using the `json` library in Python. Investi
 1. How can we find a cell within the notebook?
 1. How can we known if the cell contains Python code or Markdown annotations?
 
+### Exercise 1 - Answers
+1. The cells are all in a "cells" list inside the main json of the notebook.
+2. Inside each cell there is a key "cell_type", which's value is either "code" or "markdown".
+
 ## Exercise 2
 
 The simplest way to search for text is using keywords. Improve your code so that it:
